@@ -2,7 +2,7 @@
   "name": "crowbar-gg",
   "version": "1.0.0",
   "description": "Full-stack aplikacija za crowbar.gg gaming platformu",
-  
+"main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:start\"",
     "backend:dev": "cd backend && npm run dev",
